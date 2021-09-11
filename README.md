@@ -10,7 +10,10 @@ git clone https://github.com/lihanghang/SpringPractice.git
 - use mvnw or mvnw.cmd file to execute the following command:
     + Windows(Mac OS): mvnw.cmd(mvnw) -N io.takari:maven:wrapper
 
-
+## 基于Drools的规则引擎
+1. 官网学习：https://www.drools.org/
+2. Drools 使用7.54.0.Final版本
+3. 和SpringBoot 2.3.11.Release进行整合
 
 ## ref
 1. 习惯linux命令可将Terminal替换为 bash。
@@ -20,4 +23,4 @@ git clone https://github.com/lihanghang/SpringPractice.git
 
 ---
 Author: LiHangHang
-Update: 2021-04-01
+Update: 2021-06-08
