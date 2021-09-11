@@ -15,6 +15,10 @@ git clone https://github.com/lihanghang/SpringPractice.git
 2. Drools 使用7.54.0.Final版本
 3. 和SpringBoot 2.3.11.Release进行整合
 
+## 周边应用包
+1. Using ehcache 3.8
+2. Using Logback
+
 ## ref
 1. 习惯linux命令可将Terminal替换为 bash。
     - settings-->tools-->Terminal-->shell path 路径变为bash.exe的位置

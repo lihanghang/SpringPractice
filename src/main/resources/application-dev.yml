@@ -1,2 +1,9 @@
 server:
   port: 8081
+
+spring:
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+logging:
+  config: classpath:logback-spring.xml

@@ -11,6 +11,7 @@
 package com.mason.practice.controller;
 
 import com.mason.practice.annotation.CostTime;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,6 +23,7 @@ public class HelloSpringController {
 
     @GetMapping("hello")
     @CostTime
+    @Cacheable(value = "local-cache", key="'hello_spring'")
     public String hello(){
         return "Hello, Spring!";
     }
