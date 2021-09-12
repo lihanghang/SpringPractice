@@ -1,7 +1,7 @@
 /**
  * Copyright (C), 2019-2021, XXX
  * FileName: AspectCostTime
- * Author:   hanghangli
+ * Author:   HangHangLi
  * Date:     2021/9/11 17:16
  * Description: 接口耗时统计切面
  * History:
@@ -27,7 +27,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author hanghangli
+ * @author HangHangLi
  */
 @Aspect
 @Component

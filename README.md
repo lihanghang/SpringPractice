@@ -15,10 +15,20 @@ git clone https://github.com/lihanghang/SpringPractice.git
 2. Drools 使用7.54.0.Final版本
 3. 和SpringBoot 2.3.11.Release进行整合
 
-## 周边应用包
+## jar包应用
 1. Using ehcache 3.8
 2. Using Logback
+3. Using MySQL 5.7.28
+4. Using hikari
 
+## 基本命令
+1. DB
+```mysql
+CREATE DATABASE DB_NAME CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+```mysql
+GRANT ALL PRIVILEGES ON *.* TO 'USER_NAME'@'localhost' IDENTIFIED BY 'PASS_WORD';
+```
 ## ref
 1. 习惯linux命令可将Terminal替换为 bash。
     - settings-->tools-->Terminal-->shell path 路径变为bash.exe的位置

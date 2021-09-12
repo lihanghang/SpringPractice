@@ -1,7 +1,7 @@
 /**
  * Copyright (C), 2019-2021, XXX
  * FileName: CacheConfig
- * Author:   hanghangli
+ * Author:   HangHangLi
  * Date:     2021/9/11 20:55
  * Description: ehcache config file
  * History:
@@ -14,7 +14,7 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author hanghangli
+ * @author HangHangLi
  */
 @Configuration
 @EnableCaching

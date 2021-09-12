@@ -1,7 +1,7 @@
 /**
  * Copyright (C), 2019-2021, XXX
  * FileName: HttpUtils
- * Author:   hanghangli
+ * Author:   HangHangLi
  * Date:     2021/9/11 18:08
  * Description: http请求自定义工具类
  * History:
@@ -13,7 +13,7 @@ package com.mason.practice.utils;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author hanghangli
+ * @author HangHangLi
  */
 public final class HttpUtils {
     private static final String[] IP_HEADERS = {
